@@ -486,8 +486,8 @@ namespace SampleApp.Core.Services
             };
         }
 
-        // TODO WTS: Remove this once your MasterDetail pages are displaying real data.
-        public async Task<IEnumerable<SampleOrder>> GetMasterDetailDataAsync()
+        // TODO WTS: Remove this once your GridData pages are displaying real data.
+        public async Task<IEnumerable<SampleOrder>> GetGridDataAsync()
         {
             await Task.CompletedTask;
             return AllOrders();

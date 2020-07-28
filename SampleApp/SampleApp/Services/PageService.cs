@@ -18,8 +18,7 @@ namespace SampleApp.Services
         public PageService(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
-            Configure<MainViewModel, MainPage>();
-            Configure<MasterDetailViewModel, MasterDetailPage>();
+            Configure<DataGridViewModel, DataGridPage>();
             Configure<SettingsViewModel, SettingsPage>();
         }
 

@@ -4,9 +4,9 @@ using SampleApp.ViewModels;
 
 namespace SampleApp.Views
 {
-    public partial class MasterDetailPage : Page
+    public partial class DataGridPage : Page
     {
-        public MasterDetailPage(MasterDetailViewModel viewModel)
+        public DataGridPage(DataGridViewModel viewModel)
         {
             InitializeComponent();
             DataContext = viewModel;

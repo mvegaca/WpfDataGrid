@@ -7,6 +7,6 @@ namespace SampleApp.Core.Contracts.Services
 {
     public interface ISampleDataService
     {
-        Task<IEnumerable<SampleOrder>> GetMasterDetailDataAsync();
+        Task<IEnumerable<SampleOrder>> GetGridDataAsync();
     }
 }

@@ -74,11 +74,8 @@ namespace SampleApp
             services.AddTransient<IShellWindow, ShellWindow>();
             services.AddTransient<ShellViewModel>();
 
-            services.AddTransient<MainViewModel>();
-            services.AddTransient<MainPage>();
-
-            services.AddTransient<MasterDetailViewModel>();
-            services.AddTransient<MasterDetailPage>();
+            services.AddTransient<DataGridViewModel>();
+            services.AddTransient<DataGridPage>();
 
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
