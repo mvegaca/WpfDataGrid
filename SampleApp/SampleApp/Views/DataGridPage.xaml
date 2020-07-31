@@ -24,14 +24,7 @@
                 CanUserAddRows="False"
                 ItemsSource="{Binding Source}"
                 Margin="{StaticResource SmallLeftRightMargin}"
-                KeyboardNavigation.ControlTabNavigation="Once"
-                KeyboardNavigation.DirectionalNavigation="Contained">
-                <!--KeyboardNavigation.TabNavigation="Once"-->
-                <!--<DataGrid.CellStyle>
-                    <Style TargetType="DataGridCell">
-                        <Setter Property="KeyboardNavigation.TabNavigation" Value="Once" />
-                    </Style>
-                </DataGrid.CellStyle>-->
+                KeyboardNavigation.TabNavigation="Once">
                 <DataGrid.Columns>
                     <!--
                         TODO WTS:
